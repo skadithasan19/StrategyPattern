@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		0C0C6E551CD0357800E84107 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C6E541CD0357800E84107 /* main.m */; };
 		0C0C6E581CD0357800E84107 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C6E571CD0357800E84107 /* AppDelegate.m */; };
-		0C0C6E5B1CD0357800E84107 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C6E5A1CD0357800E84107 /* ViewController.m */; };
-		0C0C6E5E1CD0357800E84107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C6E5C1CD0357800E84107 /* Main.storyboard */; };
 		0C0C6E611CD0357800E84107 /* StrategyPattern.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C6E5F1CD0357800E84107 /* StrategyPattern.xcdatamodeld */; };
 		0C0C6E631CD0357800E84107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C6E621CD0357800E84107 /* Assets.xcassets */; };
-		0C0C6E661CD0357800E84107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C6E641CD0357800E84107 /* LaunchScreen.storyboard */; };
 		0C0C6E711CD0357800E84107 /* StrategyPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C6E701CD0357800E84107 /* StrategyPatternTests.m */; };
+		0C0C6E991CD03A1500E84107 /* BurgerMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C6E8B1CD03A1400E84107 /* BurgerMaker.m */; };
+		0C0C6E9A1CD03A1500E84107 /* MakerContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C6E8D1CD03A1400E84107 /* MakerContext.m */; };
+		0C0C6E9B1CD03A1500E84107 /* PanCakeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C6E901CD03A1400E84107 /* PanCakeMaker.m */; };
+		0C0C6E9C1CD03A1500E84107 /* SandwichMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C6E921CD03A1400E84107 /* SandwichMaker.m */; };
+		0C0C6E9D1CD03A1500E84107 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C6E951CD03A1500E84107 /* ViewController.m */; };
+		0C0C6E9E1CD03A1500E84107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C6E971CD03A1500E84107 /* LaunchScreen.storyboard */; };
+		0C0C6E9F1CD03A1500E84107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C6E981CD03A1500E84107 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,16 +36,25 @@
 		0C0C6E541CD0357800E84107 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C0C6E561CD0357800E84107 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C0C6E571CD0357800E84107 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C0C6E591CD0357800E84107 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0C0C6E5A1CD0357800E84107 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0C0C6E5D1CD0357800E84107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C0C6E601CD0357800E84107 /* StrategyPattern.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StrategyPattern.xcdatamodel; sourceTree = "<group>"; };
 		0C0C6E621CD0357800E84107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C0C6E651CD0357800E84107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C0C6E671CD0357800E84107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C0C6E6C1CD0357800E84107 /* StrategyPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrategyPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0C6E701CD0357800E84107 /* StrategyPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyPatternTests.m; sourceTree = "<group>"; };
 		0C0C6E721CD0357800E84107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0C6E8A1CD03A1400E84107 /* BurgerMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BurgerMaker.h; sourceTree = "<group>"; };
+		0C0C6E8B1CD03A1400E84107 /* BurgerMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BurgerMaker.m; sourceTree = "<group>"; };
+		0C0C6E8C1CD03A1400E84107 /* MakerContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakerContext.h; sourceTree = "<group>"; };
+		0C0C6E8D1CD03A1400E84107 /* MakerContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakerContext.m; sourceTree = "<group>"; };
+		0C0C6E8E1CD03A1400E84107 /* Makers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Makers.h; sourceTree = "<group>"; };
+		0C0C6E8F1CD03A1400E84107 /* PanCakeMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanCakeMaker.h; sourceTree = "<group>"; };
+		0C0C6E901CD03A1400E84107 /* PanCakeMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanCakeMaker.m; sourceTree = "<group>"; };
+		0C0C6E911CD03A1400E84107 /* SandwichMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SandwichMaker.h; sourceTree = "<group>"; };
+		0C0C6E921CD03A1400E84107 /* SandwichMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandwichMaker.m; sourceTree = "<group>"; };
+		0C0C6E941CD03A1500E84107 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C0C6E951CD03A1500E84107 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C0C6E971CD03A1500E84107 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C0C6E981CD03A1500E84107 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,15 +96,11 @@
 		0C0C6E521CD0357800E84107 /* StrategyPattern */ = {
 			isa = PBXGroup;
 			children = (
+				0C0C6E891CD03A1400E84107 /* Model */,
+				0C0C6E961CD03A1500E84107 /* View */,
+				0C0C6E931CD03A1400E84107 /* Controller */,
 				0C0C6E561CD0357800E84107 /* AppDelegate.h */,
 				0C0C6E571CD0357800E84107 /* AppDelegate.m */,
-				0C0C6E591CD0357800E84107 /* ViewController.h */,
-				0C0C6E5A1CD0357800E84107 /* ViewController.m */,
-				0C0C6E5C1CD0357800E84107 /* Main.storyboard */,
-				0C0C6E621CD0357800E84107 /* Assets.xcassets */,
-				0C0C6E641CD0357800E84107 /* LaunchScreen.storyboard */,
-				0C0C6E671CD0357800E84107 /* Info.plist */,
-				0C0C6E5F1CD0357800E84107 /* StrategyPattern.xcdatamodeld */,
 				0C0C6E531CD0357800E84107 /* Supporting Files */,
 			);
 			path = StrategyPattern;
@@ -100,6 +109,9 @@
 		0C0C6E531CD0357800E84107 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C0C6E621CD0357800E84107 /* Assets.xcassets */,
+				0C0C6E671CD0357800E84107 /* Info.plist */,
+				0C0C6E5F1CD0357800E84107 /* StrategyPattern.xcdatamodeld */,
 				0C0C6E541CD0357800E84107 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -112,6 +124,40 @@
 				0C0C6E721CD0357800E84107 /* Info.plist */,
 			);
 			path = StrategyPatternTests;
+			sourceTree = "<group>";
+		};
+		0C0C6E891CD03A1400E84107 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C0C6E8E1CD03A1400E84107 /* Makers.h */,
+				0C0C6E8C1CD03A1400E84107 /* MakerContext.h */,
+				0C0C6E8D1CD03A1400E84107 /* MakerContext.m */,
+				0C0C6E8A1CD03A1400E84107 /* BurgerMaker.h */,
+				0C0C6E8B1CD03A1400E84107 /* BurgerMaker.m */,
+				0C0C6E8F1CD03A1400E84107 /* PanCakeMaker.h */,
+				0C0C6E901CD03A1400E84107 /* PanCakeMaker.m */,
+				0C0C6E911CD03A1400E84107 /* SandwichMaker.h */,
+				0C0C6E921CD03A1400E84107 /* SandwichMaker.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C0C6E931CD03A1400E84107 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C0C6E941CD03A1500E84107 /* ViewController.h */,
+				0C0C6E951CD03A1500E84107 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C0C6E961CD03A1500E84107 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C0C6E971CD03A1500E84107 /* LaunchScreen.storyboard */,
+				0C0C6E981CD03A1500E84107 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,9 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0C6E661CD0357800E84107 /* LaunchScreen.storyboard in Resources */,
+				0C0C6E9F1CD03A1500E84107 /* Main.storyboard in Resources */,
 				0C0C6E631CD0357800E84107 /* Assets.xcassets in Resources */,
-				0C0C6E5E1CD0357800E84107 /* Main.storyboard in Resources */,
+				0C0C6E9E1CD03A1500E84107 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,10 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0C6E5B1CD0357800E84107 /* ViewController.m in Sources */,
+				0C0C6E9C1CD03A1500E84107 /* SandwichMaker.m in Sources */,
+				0C0C6E9B1CD03A1500E84107 /* PanCakeMaker.m in Sources */,
+				0C0C6E9D1CD03A1500E84107 /* ViewController.m in Sources */,
 				0C0C6E611CD0357800E84107 /* StrategyPattern.xcdatamodeld in Sources */,
 				0C0C6E581CD0357800E84107 /* AppDelegate.m in Sources */,
 				0C0C6E551CD0357800E84107 /* main.m in Sources */,
+				0C0C6E9A1CD03A1500E84107 /* MakerContext.m in Sources */,
+				0C0C6E991CD03A1500E84107 /* BurgerMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,25 +288,6 @@
 			targetProxy = 0C0C6E6D1CD0357800E84107 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0C0C6E5C1CD0357800E84107 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C0C6E5D1CD0357800E84107 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0C0C6E641CD0357800E84107 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C0C6E651CD0357800E84107 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0C0C6E731CD0357800E84107 /* Debug */ = {
